@@ -1,0 +1,26 @@
+{
+  "framework": "laravel",
+  "php": {
+    "version": "8.4"
+  },
+  "builds": [
+    {
+      "src": "/",
+      "use": "@vercelphp/laravel"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/public/index.php"
+    }
+  ],
+  "env": {
+    "APP_NAME": "Portfolio",
+    "APP_ENV": "production",
+    "APP_KEY": "base64:i1tdcg+0EsBsnx0r7FLMyWjxmUUPh0KVVQ+XAgBXLb0=",
+    "APP_DEBUG": "false",
+    "APP_URL": "@VERCEL_URL",
+    "DB_CONNECTION": "sqlite"
+  }
+}
