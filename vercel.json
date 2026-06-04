@@ -1,8 +1,5 @@
 {
   "framework": "laravel",
-  "php": {
-    "version": "8.4"
-  },
   "builds": [
     {
       "src": "/",
